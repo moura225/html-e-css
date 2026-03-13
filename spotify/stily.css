@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#121212;
+    color:white;
+}
+
+.container{
+    display:flex;
+}
+
+.sidebar{
+    width:200px;
+    background:black;
+    height:100vh;
+    padding:20px;
+}
+
+.logo{
+    color:#1DB954;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+}
+
+.sidebar li{
+    margin:20px 0;
+    cursor:pointer;
+}
+
+.main{
+    flex:1;
+    padding:30px;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    background:#181818;
+    padding:15px;
+    border-radius:10px;
+    width:150px;
+    transition:0.3s;
+}
+
+.card img{
+    width:100%;
+    border-radius:8px;
+}
+
+.card:hover{
+    background:#282828;
+    transform:scale(1.05);
+}

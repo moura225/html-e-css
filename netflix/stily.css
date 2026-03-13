@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:black;
+    color:white;
+}
+
+header{
+    background:black;
+    padding:20px;
+}
+
+.logo{
+    color:red;
+}
+
+.banner{
+    height:400px;
+    background:url("https://wallpaperaccess.com/full/2703652.png");
+    background-size:cover;
+    padding:50px;
+}
+
+.filmes{
+    padding:20px;
+}
+
+.linha{
+    display:flex;
+    gap:10px;
+}
+
+.linha img{
+    width:200px;
+    transition:0.3s;
+}
+
+.linha img:hover{
+    transform:scale(1.1);
+}

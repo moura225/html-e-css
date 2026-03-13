@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Netflix Clone</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="logo">NETFLIX</h1>
+</header>
+
+<section class="banner">
+    <h2>Série em destaque</h2>
+    <p>Assista agora</p>
+</section>
+
+<section class="filmes">
+    <h3>Populares</h3>
+
+    <div class="linha">
+        <img src="https://via.placeholder.com/200x300">
+        <img src="https://via.placeholder.com/200x300">
+        <img src="https://via.placeholder.com/200x300">
+        <img src="https://via.placeholder.com/200x300">
+    </div>
+
+</section>
+
+</body>
+</html>
